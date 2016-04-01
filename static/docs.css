@@ -1,14 +1,17 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
   margin-bottom: 0;
+  min-height: 83px;
 }
 
 .navbar-brand {
-  font-size: 20px;
+  margin-top: 13px;
+  font-size: 26px;
+  font-weight: 300;
   color: #aaa;
 }
 
@@ -30,20 +33,33 @@ body {
   background-image: url("/assets/jumbotron-background.png");
   text-align: center;
   padding: 40px 0;
+
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 0px;
 }
 
 .jumbotron h1 {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 52px;
+
   color: #fff;
 }
 
 .jumbotron p {
-  color: rgba(255,255,255,0.7);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 0px 0 2px 0 rgba(0,0,0,0.3);
+  
+  color: rgba(255,255,255,0.8);
 }
 
 .jumbotron a.btn {
   border: none;
   background-color: rgba(0,0,0,0.15);
   color: #fff;
+  padding: 20px 25px 20px 25px;
+  margin: 10px;
 }
 
 .jumbotron a.btn:hover {
@@ -251,10 +267,10 @@ code {
 }
 
 .main-nav {
+  margin-top: 17px;
   letter-spacing: 1px;
-  font-family: Avenir, 'Open Sans', serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-family: 'Lato', serif;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
