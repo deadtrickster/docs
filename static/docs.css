@@ -35,6 +35,7 @@ body {
   padding: 40px 0;
 
   text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 0px;
+  margin-bottom: 50px;
 }
 
 .jumbotron h1 {
@@ -76,6 +77,13 @@ body {
   margin-bottom: 20px;
 }
 
+#metrics {
+  background: #35434f;
+  background-color: #35434f;
+  color: #fff;
+  width: 100%;
+}
+
 .main .fa {
   color: #e6522c;
 }
@@ -83,6 +91,7 @@ body {
 .main h2 {
   font-size: 25px;
   white-space: nowrap;
+  font-weight: 300;
 }
 
 footer {
@@ -247,8 +256,10 @@ a.sc-logo img {
 pre {
   font-family: "Courier New", Monaco, Menlo, Consolas, monospace;
   background-color: #f9f2f4;
-  border: 1px solid #333;
+  background-color: rgba(0,0,0,0.08);
+  border: none;
   color: #333;
+  padding: 15px;
 }
 
 code {
@@ -264,6 +275,8 @@ code {
 
 .main .desc {
   margin-bottom: 20px;
+  font-weight: 300;
+  color: #111;
 }
 
 .main-nav {
@@ -286,6 +299,12 @@ article {
 
 .read-more > a {
   color: #888;
+}
+
+.trusted-by {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 10px;
 }
 
 .logos {
